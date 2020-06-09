@@ -1,0 +1,83 @@
+site_name: '@pnp/spfx-controls-react'
+nav:
+  - Home: 'index.md'
+  - Controls:
+    - Carousel: 'controls/Carousel.md'
+    - Charts:
+      - "ChartControl": 'controls/ChartControl.md'
+      - "Bar Chart": 'controls/charts/BarChart.md'
+      - "Bubble Chart": 'controls/charts/BubbleChart.md'
+      - "Doughnut Chart": 'controls/charts/DoughnutChart.md'
+      - "Line Chart": 'controls/charts/LineChart.md'
+      - "Pie Chart": 'controls/charts/PieChart.md'
+      - "Polar Area Chart": 'controls/charts/PolarAreaChart.md'
+      - "Radar Chart": 'controls/charts/RadarChart.md'
+      - "Scatter Chart": 'controls/charts/ScatterChart.md'
+    - ComboBoxListItemPicker: 'controls/ComboBoxListItemPicker.md'
+    - DateTimePicker: 'controls/DateTimePicker.md'
+    - FilePicker: 'controls/FilePicker.md'
+    - FileTypeIcon: 'controls/FileTypeIcon.md'
+    - FolderExplorer: 'controls/FolderExplorer.md'
+    - FolderPicker: 'controls/FolderPicker.md'
+    - GridLayout: 'controls/GridLayout.md'
+    - IconPicker: 'controls/IconPicker.md'
+    - IFrameDialog: 'controls/IFrameDialog.md'
+    - IFramePanel: 'controls/IFramePanel.md'
+    - ListItemAttachments: 'controls/ListItemAttachments.md'
+    - ListItemPicker: 'controls/ListItemPicker.md'
+    - ListPicker: 'controls/ListPicker.md'
+    - ListView: 'controls/ListView.md'
+    - "ListView: add a contextual menu": 'controls/ListView.ContextualMenu.md'
+    - Map: 'controls/Map.md'
+    - Pagination: 'controls/Pagination.md'
+    - PeoplePicker: 'controls/PeoplePicker.md'
+    - Placeholder: 'controls/Placeholder.md'
+    - Progress: 'controls/Progress.md'
+    - RichText: 'controls/RichText.md'
+    - SiteBreadcrumb: 'controls/SiteBreadcrumb.md'
+    - SecurityTrimmedControl: 'controls/SecurityTrimmedControl.md'
+    - TaxonomyPicker: 'controls/TaxonomyPicker.md'
+    - TreeView: 'controls/TreeView.md'
+    - WebPartTitle: 'controls/WebPartTitle.md'
+  - 'Field Controls':
+    - 'Getting started': 'controls/fields/main.md'
+    - FieldRendererHelper: 'controls/fields/FieldRendererHelper.md'
+    - FieldAttachmentsRenderer: 'controls/fields/FieldAttachmentsRenderer.md'
+    - FieldDateRenderer: 'controls/fields/FieldDateRenderer.md'
+    - FieldFileTypeRenderer: 'controls/fields/FieldFileTypeRenderer.md'
+    - FieldLookupRenderer: 'controls/fields/FieldLookupRenderer.md'
+    - FieldNameRenderer: 'controls/fields/FieldNameRenderer.md'
+    - FieldTaxonomyRenderer: 'controls/fields/FieldTaxonomyRenderer.md'
+    - FieldTextRenderer: 'controls/fields/FieldTextRenderer.md'
+    - FieldTitleRenderer: 'controls/fields/FieldTitleRenderer.md'
+    - FieldUrlRenderer: 'controls/fields/FieldUrlRenderer.md'
+    - FieldUserRenderer: 'controls/fields/FieldUserRenderer.md'
+  - 'Beta testing': 'beta.md'
+  - About:
+    - 'Release notes': 'about/release-notes.md'
+    - License: 'about/license.md'
+theme:
+  name: 'material'
+  palette:
+    primary: 'teal'
+  logo: 'assets/pnp-spfx-controls.svg'
+  feature:
+    tabs: true
+extra_css:
+  - 'css/extra.css'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+extra:
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/officedevpnp'
+    - type: 'youtube'
+      link: 'http://aka.ms/sppnp-videos'
+    - type: 'link'
+      link: 'https://aka.ms/sppnp'
+repo_url: https://github.com/pnp/sp-dev-fx-controls-react
+edit_uri: blob/master/docs/documentation/docs
